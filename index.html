@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إخفاء العلامة المائية</title>
+    <style>
+        .video-container {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .watermark-cover {
+            position: absolute;
+            bottom: 10px; /* حدد مكان العلامة المائية */
+            right: 10px; /* حدد مكان العلامة المائية */
+            width: 100px; /* تعديل الحجم حسب الحاجة */
+            height: 50px;
+            background-color: black; /* غطاء أسود لإخفاء العلامة */
+            opacity: 0.8; /* درجة التعتيم */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="video-container">
+        <iframe src="https://high-kora.com/TOD/WEB/BEIN/admin/WEB/SSC/SSC1.php" width="800" height="450" allowfullscreen></iframe>
+        <div class="watermark-cover"></div>
+    </div>
+
+</body>
+</html>
